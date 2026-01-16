@@ -68,5 +68,5 @@ while True:
         break
     if datetime.now() > fim_do_dia:
         total_saques_diarios = 0
-    print(datetime.now())
+
     acoes(input("Escolha uma ação: Realizar depósito [1], Visualizar extrato [2], Realizar Saque [3], Sair [4]"))
